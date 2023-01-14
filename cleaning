@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-Ni">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are a main organization in Nigeria and work in Imo state for disinfection and cleanliness. Anything that makes your current circumstance and you perfect, slick and clean is our task.">
+    <meta name="keywords" content="Cleaning services, House works, Mopping and dusting, Cutting grasses, Weeding, Washing">
+    <meta name="author" content="Leopeige Cleaning">
+    <title>Leopeige Cleaning</title>
+    <script src="leopeige.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <style>
+
+       *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+       }
+       #hero{
+        height:95vh;
+        width:100%;
+        background:rgba(0,0,0,0.7) url(image.jpg);
+        background-size:cover;
+        background-position:center;
+        background-blend-mode: darken;
+       }
+       nav{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding-top:25px;
+        padding-left:8px;
+        padding-right:8px;
+       }
+
+       nav ul li{
+        list-style-type:none;
+        display:inline-block;
+        padding:10px 25px;
+       }
+
+       nav ul li a{
+        color:white;
+        text-decoration:none;
+        font-weight:bold;
+        text-transform:capitalize;
+       }
+
+       nav ul li a:hover{
+        color:rgb(241, 147, 24);
+        transition:.4s;
+       }
+
+       #btn:hover{
+        transform:scale(1.2);
+       }
+
+       #id2{
+        text-align:center;
+        font-size:300%;
+        padding:10%;
+        color:white;
+        padding-bottom:1cm;
+       }
+     
+       p{
+        font-size:'Open Sans', sans-serif;
+        font-weight:lighter;
+        font-size:16px;
+        text-align:justify;
+        margin-inline: 2.1cm;
+       }
+       
+        #meme:hover{
+            transform:scale(1.1);
+        }
+    
+        .sha{
+            background:rgb(241, 147, 24);
+            border:2px solid transparent;
+            padding:12px 25px;
+            border-radius:20px;
+            font-size: 16px;
+            text-align: center;
+            color: white;
+            margin:20px;
+            font-weight: bold;
+            margin-inline: 16cm;
+            cursor: pointer;
+            outline: none;
+            transition: transform.4s;
+            
+        } 
+        .sha:hover{
+            background-color: transparent;
+            border: 2px solid rgb(241, 147, 24);
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="hero">
+        <nav>
+            <h2 style="color:white; font-size:30px; letter-spacing:1px;" id="ball">Leopeige <span style="color:rgb(241, 147, 24)">Cleaning</span></h2>
+            <img src="imagee.png" alt="logo" width="80px" height="80px" style="margin-right:15cm" id="blue">
+            <ul>
+                <li><a href="inde.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a id=btn href="Book.html" style="text-decoration:none; color:white; background-color:rgb(241, 147, 24); border:2px solid transparent; font-weight:bold; padding:10px 25px; border-radius:30px; transition:transform .4s;">Book</a>
+        </nav>
+        <h1 id="id2">LET US DO YOUR DIRTY WORK</h1> <br> 
+        <h2 style="text-align:center; font-size:130%; color:white">First timer? Request for a quota now and book with us to get<br> a 20% discount that you wouldn't want to miss</h2>
+        <button class="sha">Welcome</button>
+        
+    </div>
+    <br>
+    <br>
+    <h2 style="text-align:center;">CLEANING AND HYGEINE SOLUTIONS COMPANY</h2>
+    <br> <br>
+    <p>We are a main organization in Nigeria and work in Imo state and for disinfection and cleanliness. 
+        Anything that makes your current circumstance and you perfect, slick and clean is our task.
+        We are respected to be confided in specialists in complete cleanliness and cleaning arrangements
+        in numerous businesses, home and office sections we serve and are determined to make improved results
+        for clean, cleanliness, protected, solid and useful work and residing spaces.</p> <br> <br>
+        <p>Our solutions are intended to tackle the gentle to weighty soil the executives issues that people, families and corporate associations face. We can address a considerable lot of your everyday cleaning and functional issues, leaving you concentrated on your different business. All our staff are continually and completely prepared and directed. We utilize green items that are protected and harmless to the ecosystem along with the most recent, best cleaning machines to give you the outcomes you request, without the issue. Our cleaning service team has the experience to make your home, office or environment shine like new whether you are coming home for vacation, hosting an event or moving in or out of your home.
+         Your happiness is our priority as we ensure that our staffs carry out their works effectively, leaving you 100% satisfied.</p>
+         <br> <br> <br>
+         
+        <br>
+        <h3 style="margin-inline:1cm; letter-spacing:1px; text-align: center;">Get On With Our Easy 1-2-3 System!!! <a id="meme" href="Book.html" target="blank" style="text-decoration: none; display:inline-block; background-color:rgb(241, 147, 24);border-radius:7px; color:black; padding:5px 11px 5px 11px; font-size:large;">Book Now</a></h3>
+        <br> <br> <br>
+       
+</body>
+</html>
